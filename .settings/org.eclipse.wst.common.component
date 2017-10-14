@@ -2,8 +2,9 @@
     <wb-module deploy-name="zqgame.fileupload.sys">
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <property name="java-output-path" value="/zqgame.fileupload.sys/target/classes"/>
-        <property name="context-root" value="zqgame.fileupload.sys"/>
+        <property name="context-root" value="fileupload.sys"/>
     </wb-module>
 </project-modules>
